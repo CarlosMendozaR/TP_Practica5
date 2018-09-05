@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Control_Excepciones
+namespace ControlExcepciones
 {
     public partial class Form1 : Form
     {
@@ -11,7 +11,12 @@ namespace Control_Excepciones
             InitializeComponent();
         }
 
-        private void btnResultado_Click(object sender, EventArgs e)
+        private void btnEdad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOperar_Click(object sender, EventArgs e)
         {
 
         }
