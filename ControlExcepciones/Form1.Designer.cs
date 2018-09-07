@@ -30,9 +30,9 @@
         {
             this.btnEdad = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbEdad = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbDivision = new System.Windows.Forms.Label();
             this.btnOperar = new System.Windows.Forms.Button();
             this.txtbEdad = new System.Windows.Forms.TextBox();
             this.txtbDivisor = new System.Windows.Forms.TextBox();
@@ -40,7 +40,7 @@
             // 
             // btnEdad
             // 
-            this.btnEdad.Location = new System.Drawing.Point(379, 51);
+            this.btnEdad.Location = new System.Drawing.Point(502, 51);
             this.btnEdad.Name = "btnEdad";
             this.btnEdad.Size = new System.Drawing.Size(115, 40);
             this.btnEdad.TabIndex = 0;
@@ -57,36 +57,36 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Ingresa tu fecha de nacimiento:";
             // 
-            // label2
+            // lbEdad
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(414, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "label2";
+            this.lbEdad.AutoSize = true;
+            this.lbEdad.Location = new System.Drawing.Point(537, 102);
+            this.lbEdad.Name = "lbEdad";
+            this.lbEdad.Size = new System.Drawing.Size(12, 17);
+            this.lbEdad.TabIndex = 2;
+            this.lbEdad.Text = " ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(85, 182);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 17);
+            this.label3.Size = new System.Drawing.Size(326, 17);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Ingresa un número con el que operar:";
+            this.label3.Text = "Ingresa un número con el que operar una división:";
             // 
-            // label4
+            // lbDivision
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(414, 225);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "label4";
+            this.lbDivision.AutoSize = true;
+            this.lbDivision.Location = new System.Drawing.Point(537, 225);
+            this.lbDivision.Name = "lbDivision";
+            this.lbDivision.Size = new System.Drawing.Size(12, 17);
+            this.lbDivision.TabIndex = 4;
+            this.lbDivision.Text = " ";
             // 
             // btnOperar
             // 
-            this.btnOperar.Location = new System.Drawing.Point(386, 175);
+            this.btnOperar.Location = new System.Drawing.Point(509, 175);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(103, 31);
             this.btnOperar.TabIndex = 5;
@@ -112,13 +112,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(604, 320);
+            this.ClientSize = new System.Drawing.Size(674, 320);
             this.Controls.Add(this.txtbDivisor);
             this.Controls.Add(this.txtbEdad);
             this.Controls.Add(this.btnOperar);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lbDivision);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbEdad);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnEdad);
             this.Name = "Form1";
@@ -132,9 +132,9 @@
 
         private System.Windows.Forms.Button btnEdad;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbEdad;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbDivision;
         private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.TextBox txtbEdad;
         private System.Windows.Forms.TextBox txtbDivisor;

@@ -13,7 +13,15 @@ namespace ControlExcepciones
 
         private void btnEdad_Click(object sender, EventArgs e)
         {
+            try
+            {
+                int edad = 2018 - int.Parse(txtbEdad.Text);
+                lbEdad.Text = "Tu edad es " + edad + " años.";
+            }
+            catch
+            {
 
+            }
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
