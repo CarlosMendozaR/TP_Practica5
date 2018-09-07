@@ -18,9 +18,9 @@ namespace ControlExcepciones
                 int edad = 2018 - int.Parse(txtbEdad.Text);
                 lbEdad.Text = "Tu edad es " + edad + " años.";
             }
-            catch
+            catch (FormatException error)
             {
-
+                lbEdad.Text="Error: " + error.Message;
             }
         }
 
