@@ -60,7 +60,7 @@
             // lbEdad
             // 
             this.lbEdad.AutoSize = true;
-            this.lbEdad.Location = new System.Drawing.Point(537, 102);
+            this.lbEdad.Location = new System.Drawing.Point(307, 107);
             this.lbEdad.Name = "lbEdad";
             this.lbEdad.Size = new System.Drawing.Size(12, 17);
             this.lbEdad.TabIndex = 2;
@@ -112,7 +112,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 320);
+            this.ClientSize = new System.Drawing.Size(769, 338);
             this.Controls.Add(this.txtbDivisor);
             this.Controls.Add(this.txtbEdad);
             this.Controls.Add(this.btnOperar);
